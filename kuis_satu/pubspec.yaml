@@ -1,0 +1,37 @@
+name: kuis_satu
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^5.0.0
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.63.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/ClashGrotesk-Variable.ttf
+    - assets/fonts/SF_Pro_Display/SFProDisplay-Regular.ttf
+    - assets/images/kucing.jpg
+    - assets/images/profile.jpg
+
+  fonts:
+    - family: ClashGrotesk
+      fonts:
+        - asset: assets/fonts/ClashGrotesk-Variable.ttf
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/SF_Pro_Display/SFProDisplay-Regular.ttf
